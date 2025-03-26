@@ -17,6 +17,7 @@ Lint Roller helps you maintain a clean and efficient linting setup by automatica
 
 ```bash
 git clone https://github.com/ryn-cx/lint-roller.git
+cd lint-roller
 uv sync
 ```
 
