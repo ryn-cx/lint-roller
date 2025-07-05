@@ -1,0 +1,18 @@
+[project]
+name = "lint-roller"
+version = "0.1.0"
+description = "A tool that automatically disables Pylint rules that are redundant when using Ruff."
+readme = "README.md"
+authors = [
+    { name = "ryn-cx", email = "84663588+ryn-cx@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "pylint>=3.3.7",
+    "pytest>=8.4.1",
+    "ruff>=0.12.2",
+]
